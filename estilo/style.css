@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+    background-color:rgb(209, 187, 159) ;
+}
+main {
+    width:250px;
+    height: 500px;
+    background-color: burlywood; 
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+#imagem > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+#login > h1 {
+    text-align: center;
+}
+#login > p {
+    text-align: center;
+}
