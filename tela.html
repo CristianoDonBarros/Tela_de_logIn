@@ -4,20 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log-In
+    <title>Login
     </title>
-    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> <!--icone google-->
+      
+    <link rel="stylesheet" href="estilo/style.css" media="all"><!--estilo principal-->
+
+    <link rel="stylesheet" href="estilo/queries.css" media="screen">
 </head>
 <body>
     <main>
         <div id="imagem">
             <img src="imagens/fachada.jpg" alt="imagem de uma fachada">
         </div>
+
         <div id="login">
             <h1>Login</h1>
             <p>
-                Faca seu Log-In para continuar
+                Faça seu Login para continuar
             </p>
+            <!--campo de email-->
+            <div class="formulario">
+                <p>
+                    <form action="">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email"></label>
+                    </form>
+                </p>
+            </div>
+            <!--campo de senha-->
+            <div class="formulario">
+                <p>
+                    <form action="" >
+                        <i class="material-icons">vpn_key</i>
+                       <input type="password" name="senha" id="senha">
+                       <label for="senha"></label>
+                     </form>
+                 </p>
+            </div>
+            <!--botão de enviar-->
+            <div id="form">
+                <p>
+                    <form action="">
+
+                        <input type="submit" value="Enviar" id="enviar">
+                    </form>
+                </p>
+            </div>
+              <p>
+                    <a href="#">Esqueci a senha</a>
+                </p>
         </div>
     </main>
 </body>
